@@ -1,16 +1,22 @@
-# React + Vite
+# Web Musical 🎵 | Cambio de Tema Claro/Oscuro 🌗
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto muestra una página web con funcionalidad para alternar entre modo claro y oscuro.
 
-Currently, two official plugins are available:
+## Funcionalidades
+- Botón para cambiar el tema
+- Estilos definidos en CSS
+- Script en JavaScript para alternar clases
+- HTML semántico y organizado
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías usadas
+- HTML
+- CSS
+- JavaScript
 
-## React Compiler
+## Cómo usar
+1. Cloná el repositorio
+2. Abrí `index.html` en tu navegador
+3. Hacé clic en el botón "Cambiar tema" para ver el efecto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Autoría
+Creado por Juana Mengochea para entrega del 4° cuatrimestre.
