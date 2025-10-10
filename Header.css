@@ -1,0 +1,21 @@
+.header {
+  background-color: var(--card-bg);
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid var(--text-color);
+}
+.theme-toggle {
+  background-color: var(--button-bg);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 2rem;
+  color: var(--text-color);
+}
