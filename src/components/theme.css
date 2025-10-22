@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.light {
+    background-color: #F5F5F5;
+    color: #222;
+}
+.dark {
+    background-color: #222;
+    color: #F5F5F5;
+}
+header {
+    padding: 1rem;
+    text-align: center;
+    background-color: inherit;
+}
+button {
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #888;
+    color: white;
+}
+button:hover {
+    background-color: #555;
+}

@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import ThemeProvider from "./components/ThemeProvider";
-import './App.css';
+import "./index.css";
+
 function App() {
   return (
     <ThemeProvider>
@@ -13,8 +14,5 @@ function App() {
     </ThemeProvider>
   );
 }
-useEffect(() => {
-  document.documentElement.setAttribute('data-theme', theme);
-}, [theme]);
 
 export default App;
